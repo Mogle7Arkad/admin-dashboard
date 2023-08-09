@@ -10,6 +10,7 @@
 /* ---left---side---bar--- */
 .sidebar{
     grid-column: 1/2;
+    grid-row: 1/3;
     background-color: #0ea5e9;
     color: white;
     height: 100vh;
@@ -28,10 +29,10 @@
 }
 /* ---sidebar--content-- */
 .sidebar-list-top{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .sidebar-list-bottom{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .sidebar-content{
     display: flex;
@@ -44,17 +45,18 @@
 }
 .main{
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 3fr;
+    height: 100vh;
 }
 /* --header-- */
 .header{
-    margin: 30px;
+    margin: 30px 30px 0px 30px;
 }
 .header-top{
     display: flex;
     justify-content: space-between;
 }
-/* --header-top--top-left- */
+/* --header-top--left- */
 .top-left img{
     align-items: center;
     justify-content: center;
@@ -69,7 +71,7 @@
 .header-top img{
     width: 20px;
 }
-/* --header-top--top-right */
+/* --header-top--right */
 .top-right{
     display: flex;
     align-items: center;
@@ -79,7 +81,34 @@
     width: 30px;
     margin: 0px 35px;
 }
-
+/* --header-down */
+.header-down{
+    display: flex;
+    justify-content: space-between;
+}
+ /* --header-down--left-- */
+ .header-down{
+    padding-top: 10px;
+ }
+ .down-left{
+    display: flex;
+    align-items: center;
+ }
+ .profile-logo img{
+    width: 50px;
+    margin-right: 10px;
+ }
 .content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     background-color: #e4e4e7;
 }
+ /* --header-down--right-- */
+ .down-right input{
+    padding: 5px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0ea5e9;
+ }
