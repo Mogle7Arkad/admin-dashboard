@@ -121,6 +121,7 @@
     border-radius: 15px;
     border: none;
     background-color: #0ea5e9;
+    cursor: pointer;
  }
  /* --my-projects-- */
  .content{
