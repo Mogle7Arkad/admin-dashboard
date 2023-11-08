@@ -99,22 +99,21 @@
  /* --header-down--left-- */
  .header-down{
     padding-top: 10px;
- }
+}
  .down-left{
     display: flex;
     align-items: center;
- }
+}
 .protext{
     font-size: 12px;
     margin-bottom: 5px;
- }
- .profile-logo img{
+}
+.profile-logo img{
     width: 50px;
     margin-right: 10px;
- }
-
+}
  /* --header-down--right-- */
- .down-right input{
+.down-right input{
     padding: 5px;
     width: 100px;
     margin: 5px 5px 0px 5px;
@@ -122,9 +121,9 @@
     border: none;
     background-color: #0ea5e9;
     cursor: pointer;
- }
+}
  /* --my-projects-- */
- .content{
+.content{
     display: grid;
     grid-template-columns: 3fr 1fr;
     background-color: #e4e4e7;
@@ -168,14 +167,14 @@
     border-left: 10px solid var(--accent);
     display: flex;
     flex-direction: column;
-  }
- .card-title{
+}
+.card-title{
     font-size: 14px;
- }
- .card-text{
+}
+.card-text{
     font-size: 12px;
- }
- .actions{
+}
+.actions{
     margin-top: 60px;
     margin-right: 10px;
     align-self: flex-end;
@@ -183,46 +182,46 @@
     justify-content: flex-end;
     align-items: flex-end;
     gap: 1.5rem;
- }
- .actions img{
+}
+.actions img{
     width: 14px;
- }
+}
  /* --right--sidebar-- */
- .rightside-bar h4{
+.rightside-bar h4{
     margin-left: 0px;
- }
+}
 
- .announcement-section{
+.announcement-section{
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 5px;
- }
- .right{
+}
+.right{
     display: grid;
     grid-template-rows: 1fr 1fr;
     margin-top: 5px;
- }
- .announcement-items-container,
- .trending-items-container{
+}
+.announcement-items-container,
+.trending-items-container{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     width: 200px;
- }
- .item-heading{
+}
+.item-heading{
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 5px;
- }
- .item{
+}
+.item{
     font-size: 12px;
- }
- hr{
+}
+hr{
     margin: 15px 0px;
- }
- .trending-section{
+}
+.trending-section{
     margin-top:2rem;
- }
+}
 /* --rightsidebar--down-- */
 .item-profile img{
     width: 25px;
